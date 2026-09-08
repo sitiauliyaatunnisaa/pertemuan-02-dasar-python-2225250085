@@ -14,11 +14,14 @@ y1 = float(input("Masukkan koordinat y titik A: "))
 x2 = float(input("Masukkan koordinat x titik B: "))
 y2 = float(input("Masukkan koordinat y titik B: "))
 
+# Menghitung selisih koordinat x dan y
 dx = x2 - x1
 dy = y2 - y1
 
+# Menghitung jarak antara titik A dan titik B
 jarak = ((dx ** 2) + (dy ** 2)) ** 0.5
 
+# Menghitung titik tengah antara titik A dan titik B
 titik_tengah_x = (x1 + x2) / 2
 titik_tengah_y = (y1 + y2) / 2
 
